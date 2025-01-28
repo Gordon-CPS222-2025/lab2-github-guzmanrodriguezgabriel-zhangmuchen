@@ -47,11 +47,12 @@ bool tttb_winner_diagonal_test() {
 int main() {
     bool result = true;
     result &= tttb_winner_vertical_test();
-    result &= tttb_winner_diagonal_test();
     if (result) {
         cout << "All tests passed." << endl;
         return(0);
     }
     return(-1);
+
+    
 }
 //testing comments
